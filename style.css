@@ -10,7 +10,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #e0e3eb;
+    background-color: #463f3a;
 }
 .container{
     position: relative;
@@ -18,8 +18,8 @@ body{
     width: 100%;
     border-radius: 12px;
     padding: 10px 20px 20px;
-    background-color: #fff;
-    box-shadow: 0 4px 8px #343a40;
+    background-color: #d6ccc2;
+    /* box-shadow: 0 7px 13px #e0e1dd; */
 }
 .buttons{
     display: grid;
@@ -37,6 +37,8 @@ body{
     text-align: right;
     color: #000e1a;
     pointer-events: none;
+    border-radius: 10px;
+    padding-right: 5px;
 }
 .buttons button{
     padding:10px;
@@ -46,6 +48,7 @@ body{
     font-size: 20px;
     cursor: pointer;
     background-color: #eee;
+
 }
 .buttons button:active{
     transform: scale(0.99);

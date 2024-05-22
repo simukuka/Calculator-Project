@@ -19,7 +19,16 @@ const calculate =(btnValue)=>{
 // add even listeners to button and call calculate on click.
 for(let btn of buttons){
     btn.addEventListener('click', (e)=>{
+        changeColor(btn);
         calculate(e.target.dataset.value);
+    
     })
+}
+//function to change the back color of the buttons when clicked
+const changeColor = (btn)=>{
+    btn.style.backgroundColor = "#8a817c";
+    setTimeout(()=>{
+        btn.style.backgroundColor ="#eee";
+    }, 350)
 }
 
